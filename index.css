@@ -1,0 +1,22 @@
+body {
+  background: url("./background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.mt-1 {
+  margin-top: -1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 30em) {
+  .w-38-ns {
+    width: 40%;
+  }
+}
